@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>📚 My e-Library</title>
+</head>
+<body>
+  <header>
+    <h1>📖 Welcome to My e-Library</h1>
+    <p>This is a simple digital library where you can keep track of your books.  
+       You can list titles, note the author, and mark if you’ve read them.  
+       (This is just a static HTML page, so nothing is saved — but you can print or copy it!)</p>
+    <hr>
+  </header>
+
+  <section>
+    <h2>1) Add Your Books</h2>
+    <form>
+      <label>Book Title: <input type="text" name="title" placeholder="Enter book name"></label><br><br>
+      <label>Author: <input type="text" name="author" placeholder="Enter author name"></label><br><br>
+      <label>Category: <input type="text" name="category" placeholder="e.g. Fiction, History"></label><br><br>
+      <label>Read? <input type="checkbox" name="read"></label><br><br>
+      <input type="submit" value="Add to List (demo only)">
+    </form>
+    <p><em>Note: Since this is HTML-only, the “Add” button doesn’t save data.  
+       You can fill in the form and print the page, or edit the HTML file to add books permanently.</em></p>
+  </section>
+
+  <section>
+    <h2>2) Example Book Shelf</h2>
+    <table border="1" cellpadding="8">
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Category</th>
+        <th>Status</th>
+      </tr>
+      <tr>
+        <td>The Bhagavad Gita</td>
+        <td>Vyasa</td>
+        <td>Spiritual</td>
+        <td>✔ Read</td>
+      </tr>
+      <tr>
+        <td>Wings of Fire</td>
+        <td>A.P.J. Abdul Kalam</td>
+        <td>Autobiography</td>
+        <td>✘ Not Read</td>
+      </tr>
+      <tr>
+        <td>Half Girlfriend</td>
+        <td>Chetan Bhagat</td>
+        <td>Fiction</td>
+        <td>✔ Read</td>
+      </tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>3) Notes & Quotes</h2>
+    <p>Use this space to write favorite quotes, reflections, or what you learned from a book:</p>
+    <p></p>
+    <p></p>
+    <p></p>
+  </section>
+
+  <footer>
+    <hr>
+    <p>📝 Tip: You can expand this library anytime by editing the HTML file.  
+       Add new <code>&lt;tr&gt;</code> rows in the table for new books!</p>
+  </footer>
+</body>
+</html>
